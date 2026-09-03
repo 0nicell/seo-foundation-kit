@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "[A question a real customer actually asks]",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[The answer, in full, as it appears visible on the page. Schema must match visible content or it is a violation.]"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "[Second question]",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[Answer]"
+      }
+    }
+  ]
+}

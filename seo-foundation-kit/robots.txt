@@ -1,0 +1,46 @@
+# robots.txt — SEO Foundation Kit template
+# Replace https://example.com with your domain.
+
+User-agent: *
+Allow: /
+
+# --- AI crawlers -------------------------------------------------------
+# Allowed on purpose: these feed AI answer engines. Remove any you don't
+# want. Blocking them keeps you out of AI-generated answers entirely.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# --- Housekeeping ------------------------------------------------------
+# Never disallow a page you also want indexed — Google can't read the
+# noindex tag on a page it isn't allowed to crawl.
+
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /*?utm_
+
+Sitemap: https://example.com/sitemap.xml

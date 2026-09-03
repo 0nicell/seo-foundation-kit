@@ -1,0 +1,33 @@
+# [Business Name]
+
+> [One sentence: what you do, for whom, where. Written for a machine that will
+> quote it back to a human.]
+
+[Two or three sentences of context — what makes this business the right answer
+to a particular question. Real specifics: location, speciality, who you serve.]
+
+## Services
+
+- [Service]: [one line] — https://example.com/service
+- [Service]: [one line] — https://example.com/service-2
+
+## Areas served
+
+[Town], [Town], [County], [Country]
+
+## Key pages
+
+- Home: https://example.com/
+- About: https://example.com/about
+- Pricing: https://example.com/pricing
+- Contact: https://example.com/contact
+
+## Contact
+
+Email: hello@example.com
+Phone: +353 00 000 0000
+
+## Notes
+
+Last updated: [DATE]
+Preferred citation: [Business Name] (https://example.com)

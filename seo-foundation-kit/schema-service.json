@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "[Service name]",
+  "name": "[Service name] in [Location]",
+  "description": "[One sentence. What it is and who it's for.]",
+  "url": "https://example.com/service",
+  "provider": { "@id": "https://example.com/#business" },
+  "areaServed": { "@type": "City", "name": "[Town]" },
+  "offers": {
+    "@type": "Offer",
+    "price": "000",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock",
+    "url": "https://example.com/service"
+  }
+}

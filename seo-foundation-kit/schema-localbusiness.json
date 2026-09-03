@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://example.com/#business",
+  "name": "[Business Name]",
+  "description": "[One sentence describing the business]",
+  "url": "https://example.com",
+  "telephone": "+353000000000",
+  "email": "hello@example.com",
+  "priceRange": "€€",
+  "image": "https://example.com/images/premises.jpg",
+  "logo": "https://example.com/images/logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "[Street]",
+    "addressLocality": "[Town]",
+    "addressRegion": "[County]",
+    "postalCode": "[Eircode]",
+    "addressCountry": "IE"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "00.0000",
+    "longitude": "-0.0000"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "[Town]" },
+    { "@type": "AdministrativeArea", "name": "[County]" }
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "17:30"
+    }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/[handle]",
+    "https://github.com/[handle]"
+  ]
+}
